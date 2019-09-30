@@ -204,6 +204,11 @@ input, select, textarea {
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
+    
+    vishfont {
+        font-family: 'Montserrat', sans-serif;
+    }
+
 
 	pre {
 		-webkit-overflow-scrolling: touch;
@@ -2174,11 +2179,21 @@ input, select, textarea {
 		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
-
+    header.homer{
+		margin: 0 0 4em 0;
+		position: relative;
+		text-align: center;
+        font-size: 1.5em; 
+        font-weight: 300;
+   /*  font-family: "Open Sans", Helvetica, sans-serif; */
+	}
 	header.major {
 		margin: 0 0 4em 0;
 		position: relative;
 		text-align: center;
+        font-size: 1.5em; 
+        font-weight: 300;
+   /*  font-family: "Open Sans", Helvetica, sans-serif; */
 	}
 
 		header.major:after {
@@ -3438,7 +3453,7 @@ input, select, textarea {
 	}
 
 	body.landing #header {
-		background: transparent;
+	/*	background: transparent; */
 		box-shadow: none;
 		position: absolute;
 	}
@@ -3497,15 +3512,32 @@ input, select, textarea {
 			}
 
 				#banner .content header h2 {
-					font-size: 2.5em;
+					font-size: 4em;
 					margin: 0;
+                    font-weight: 900;
+                    
 				}
+              
+
+	
 
 				#banner .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
+                    text-align: center;
+                    font-size: 2em;  
+                    font-weight: 900;
+                
 				}
-
+                .bar{					margin: 0 0 0 0;
+                     background: #55b8c4;
+                    text-align: center;
+                    content: '';
+                     display: inline-block;
+                     height: .45em;
+                      max-width: 20em;
+                      width: 25%;
+                    }
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
@@ -3525,6 +3557,19 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+    .centerb {
+        text-align: center;
+        font-weight: 900;
+        font-size: 2em;  
+       margin-top: -0.45em;
+        
+    }
+    .center {
+        text-align: center;
+        font-weight: 900;
+        font-size: 2em;  
+        margin-top: -1.5em;
+    }
 /* Footer */
 
 	#footer {
