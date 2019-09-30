@@ -3536,7 +3536,7 @@ input, select, textarea {
                      display: inline-block;
                      height: .45em;
                       max-width: 20em;
-                      width: 25%;
+                      width: 75%;
                     }
 			#banner .content .image {
 				border-radius: 100%;
