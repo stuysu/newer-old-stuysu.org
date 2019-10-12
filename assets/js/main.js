@@ -1,8 +1,4 @@
-/*
-	Landed by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
+
 
 (function($) {
 
@@ -36,7 +32,7 @@
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
-			alignment: 'right',
+			alignment: 'center',
 			hideDelay: 350
 		});
 
