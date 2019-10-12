@@ -3534,8 +3534,8 @@ input, select, textarea {
                     text-align: center;
                     content: '';
                      display: inline-block;
-                     height: .45em;
-                      max-width: 20em;
+                     height: .1em;
+                      max-width: 5em;
                       width: 75%;
                     }
 			#banner .content .image {
