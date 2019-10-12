@@ -81,7 +81,9 @@ input, select, textarea {
 	html, body {
 		background: #1c1d26;
 	}
-
+	.logo {
+	margin-top: 1em;
+}
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 		-moz-animation: none !important;
 		-webkit-animation: none !important;
