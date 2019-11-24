@@ -1,7 +1,100 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
+.image-link {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
 
+		.image-link:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'su-icons';
+			font-weight: 400;
+		}
+
+		.image-link > .label {
+			display: none;
+		}
+
+		.image-link:before {
+			line-height: inherit;
+		}
+
+		.image-link.solid:before {
+			font-weight: 900 !important;
+		}
+
+		.image-link.brands:before {
+			font-family: 'su-icons' !important;
+		}
+
+		.image-link.alt {
+			text-decoration: none;
+		}
+
+			.image-link.alt:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				text-transform: none !important;
+				font-family: 'su-icons';
+				font-weight: 400;
+			}
+
+			.image-link.alt:before {
+				color: #1c1d26 !important;
+				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+			}
+
+		.image-link.major {
+			background: #272833;
+			border-radius: 100%;
+			cursor: default;
+			display: inline-block;
+			height: 6em;
+			line-height: 5.65em;
+			margin: 0 0 2em 0;
+			text-align: center;
+			width: 6em;
+		}
+
+			.image-link.major:before {
+				font-size: 2.25em;
+			}
+
+			.image-link.major.alt {
+				text-decoration: none;
+			}
+
+				.image-link.major.alt:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					line-height: 1;
+					text-transform: none !important;
+					font-family: 'su-icons';
+					font-weight: 400;
+				}
+
+				.image-link.major.alt:before {
+					color: #272833 !important;
+					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+				}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
