@@ -28,17 +28,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-shopping:before {
-  content: "\e900";
-}
-
-.image-link {
+.icon-shopping {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		font-size: 25px;
 	}
 
-		.image-link:before {
+		.icon-shopping:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
@@ -51,27 +48,28 @@
 			content: "\e900";
 		}
 
-		.image-link > .label {
+		.icon-shopping > .label {
 			display: none;
 		}
 
-		.image-link:before {
+		.icon-shopping:before {
 			line-height: inherit;
+			content: "\e900";
 		}
 
-		.image-link.solid:before {
+		.icon-shopping.solid:before {
 			font-weight: 900 !important;
 		}
 
-		.image-link.brands:before {
-			font-family: 'su-icons' !important;
+		.icon-shopping.brands:before {
+			font-family: 'icomoon' !important;
 		}
 
-		.image-link.alt {
+		.icon-shopping.alt {
 			text-decoration: none;
 		}
 
-			.image-link.alt:before {
+			.icon-shopping.alt:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -80,16 +78,16 @@
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'su-icons';
+				font-family: 'icomoon';
 				font-weight: 400;
 			}
 
-			.image-link.alt:before {
+			.icon-shopping.alt:before {
 				color: #1c1d26 !important;
 				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 			}
 
-		.image-link.major {
+		.icon-shopping.major {
 			background: #272833;
 			border-radius: 100%;
 			cursor: default;
@@ -101,15 +99,15 @@
 			width: 6em;
 		}
 
-			.image-link.major:before {
+			.icon-shopping.major:before {
 				font-size: 2.25em;
 			}
 
-			.image-link.major.alt {
+			.icon-shopping.major.alt {
 				text-decoration: none;
 			}
 
-				.image-link.major.alt:before {
+				.icon-shopping.major.alt:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
 					display: inline-block;
@@ -118,11 +116,11 @@
 					text-rendering: auto;
 					line-height: 1;
 					text-transform: none !important;
-					font-family: 'su-icons';
+					font-family: 'icomoon';
 					font-weight: 400;
 				}
 
-				.image-link.major.alt:before {
+				.icon-shopping.major.alt:before {
 					color: #272833 !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
