@@ -1,6 +1,37 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?dbdv9t');
+  src:  url('fonts/icomoon.eot?dbdv9t#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dbdv9t') format('truetype'),
+    url('fonts/icomoon.woff?dbdv9t') format('woff'),
+    url('fonts/icomoon.svg?dbdv9t#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shopping:before {
+  content: "\e900";
+}
+
 .image-link {
 		text-decoration: none;
 		border-bottom: none;
@@ -16,8 +47,8 @@
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'su-icons';
 			font-weight: 400;
+			content: "\e900";
 		}
 
 		.image-link > .label {
